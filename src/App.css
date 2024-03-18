@@ -9,10 +9,13 @@
   height: 40;
 }
 
+*{
+  background-color: #282c34;
+}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,11 +28,50 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* App.css */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+}
+
+.spacer {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.about{
+  color: white;
+}
+/* App.css or ContactUs.css */
+.contact-us {
+  color: white;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact-us h2 {
+  margin-bottom: 10px;
+}
+
+.contact-us p {
+  line-height: 1.5;
+}
+
+.contact-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-us li {
+  margin-bottom: 5px;
 }
